@@ -26,7 +26,7 @@ const Login = () => {
       })();
       
       // Navigate to the dashboard
-      navigate('/dashboard');
+      navigate('/BM');
     }
   }, [isAuthenticated, navigate]); // Added navigate to the dependency array as a best practice
 
